@@ -1,1 +1,0 @@
-# wszib-shop
