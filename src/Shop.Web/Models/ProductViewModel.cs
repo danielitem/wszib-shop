@@ -9,6 +9,7 @@ namespace Shop.Web.Models
 {
     public class ProductViewModel //model do dodawania produktów
     {
+        public Guid Id { get; set; }
         [Required(ErrorMessage = "Nazwa musi zostać podana.")]
         [StringLength(100, MinimumLength = 3)]
         public string Name { get; set; }
@@ -20,11 +21,6 @@ namespace Shop.Web.Models
         [Range(1,100000)]
         public decimal Price { get; set; }
 
-        public List<SelectListItem> Categories { get; } = new List<SelectListItem> // lista kategorii
-        {
-            new SelectListItem {Text="Electronics", Value = "Electronics"},
-            new SelectListItem {Text="Tools", Value = "Tools"},
-            new SelectListItem {Text="Trousers", Value = "Trousers"}
-        };
+       
     }
 }
