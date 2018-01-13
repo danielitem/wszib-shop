@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Shop.Web.Framework;
 
 namespace Shop.Web
 {
@@ -21,7 +22,8 @@ namespace Shop.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            services.AddMvc(); // wskazujemy jakiego rodzaju usługi chcemy użyć w aplikacji
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,8 +38,11 @@ namespace Shop.Web
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            
 
             app.UseStaticFiles();
+
+            app.UseMyMiddleware();
 
             app.UseMvc(routes =>
             {
