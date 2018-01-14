@@ -8,11 +8,11 @@ namespace Shop.Web.Models
 {
     public class AddProductViewModel : ProductViewModel
     {
-        public List<SelectListItem> Categories { get; } = new List<SelectListItem> // lista kategorii
+        public List<SelectListItem> Categories { get; } = new List<SelectListItem>
         {
-            new SelectListItem {Text="Electronics", Value = "Electronics"},
-            new SelectListItem {Text="Tools", Value = "Tools"},
-            new SelectListItem {Text="Trousers", Value = "Trousers"}
+            new SelectListItem { Text = "Electronics", Value = "Electronics"},
+            new SelectListItem { Text = "Tools", Value = "Tools"},
+            new SelectListItem { Text = "Trousers", Value = "Trousers"}
         };
     }
 }

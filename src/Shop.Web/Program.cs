@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Shop.Web
 {
-    public class Program // konfiguracja całej aplikacji
+    public class Program
     {
         public static void Main(string[] args)
         {
@@ -19,7 +19,7 @@ namespace Shop.Web
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>() // uruchomienie naszej aplikacji
+                .UseStartup<Startup>()
                 .Build();
     }
 }

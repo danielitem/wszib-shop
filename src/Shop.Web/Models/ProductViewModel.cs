@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace Shop.Web.Models
 {
-    public class ProductViewModel //model do dodawania produktów
+    public class ProductViewModel
     {
         public Guid Id { get; set; }
-        [Required(ErrorMessage = "Nazwa musi zostać podana.")]
+
+        [Required(ErrorMessage = "Name was not provided.")]
         [StringLength(100, MinimumLength = 3)]
         public string Name { get; set; }
 
@@ -18,9 +19,7 @@ namespace Shop.Web.Models
         public string Category { get; set; }
 
         [Required]
-        [Range(1,100000)]
+        [Range(1, 100000)]
         public decimal Price { get; set; }
-
-       
     }
 }

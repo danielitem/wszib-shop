@@ -1,33 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Shop.Core.Domain;
+using Shop.Core.Repositories;
+using Shop.Core.Services;
 using Shop.Web.Models;
+using System.Linq;
 
 namespace Shop.Web.Controllers
 {
     [Route("products")]
     public class ProductsController : Controller
     {
-        private static readonly List<Product> _products = new List<Product>
+        private readonly IProductService _productService;
+
+        public ProductsController(IProductService productService)
         {
-            new Product("Laptop", "Electronics", 2999),
-            new Product("Jeans", "Trousers", 110),
-            new Product("Hammer", "Tools", 29),
-        };
+            _productService = productService;
+        }
 
         [HttpGet]
         public IActionResult Index()
         {
-            var products = _products.Select(p => new ProductViewModel
-            {
-                Id = p.Id,
-                Name = p.Name,
-                Category = p.Category,
-                Price = p.Price
-            });
+            var products = _productService
+                .GetAll()
+                .Select(p => new ProductViewModel
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Category = p.Category,
+                    Price = p.Price
+                });
 
             return View(products);
         }
@@ -36,20 +37,20 @@ namespace Shop.Web.Controllers
         public IActionResult Add()
         {
             var viewModel = new AddProductViewModel();
+
             return View(viewModel);
         }
 
         [HttpPost("add")]
         public IActionResult Add(AddProductViewModel viewModel)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return View(viewModel);
             }
-            _products.Add(new Product(viewModel.Name, viewModel.Category, viewModel.Price));
+            _productService.Add(viewModel.Name, viewModel.Category, viewModel.Price);
 
             return RedirectToAction(nameof(Index));
-            
         }
     }
 }
