@@ -1,0 +1,9 @@
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Core\bin\Debug\netstandard2.0\Shop.Core.deps.json
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Core\bin\Debug\netstandard2.0\Shop.Core.dll
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Core\bin\Debug\netstandard2.0\Shop.Core.pdb
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Core\obj\Debug\netstandard2.0\Shop.Core.csprojResolveAssemblyReference.cache
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Core\obj\Debug\netstandard2.0\Shop.Core.csproj.CoreCompileInputs.cache
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Core\obj\Debug\netstandard2.0\Shop.Core.AssemblyInfoInputs.cache
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Core\obj\Debug\netstandard2.0\Shop.Core.AssemblyInfo.cs
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Core\obj\Debug\netstandard2.0\Shop.Core.dll
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Core\obj\Debug\netstandard2.0\Shop.Core.pdb

@@ -186,11 +186,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\ddybek\\Desktop\\Nowy folder\\wszib-shop\\src\\Shop.Core\\Shop.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ddybek\\Desktop\\shop\\wszib-shop\\src\\Shop.Core\\Shop.Core.csproj",
       "projectName": "Shop.Core",
-      "projectPath": "C:\\Users\\ddybek\\Desktop\\Nowy folder\\wszib-shop\\src\\Shop.Core\\Shop.Core.csproj",
+      "projectPath": "C:\\Users\\ddybek\\Desktop\\shop\\wszib-shop\\src\\Shop.Core\\Shop.Core.csproj",
       "packagesPath": "C:\\Users\\ddybek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ddybek\\Desktop\\Nowy folder\\wszib-shop\\src\\Shop.Core\\obj\\",
+      "outputPath": "C:\\Users\\ddybek\\Desktop\\shop\\wszib-shop\\src\\Shop.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

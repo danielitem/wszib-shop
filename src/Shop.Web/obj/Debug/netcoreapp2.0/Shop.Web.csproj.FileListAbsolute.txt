@@ -1,0 +1,13 @@
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\bin\Debug\netcoreapp2.0\Shop.Web.deps.json
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\bin\Debug\netcoreapp2.0\Shop.Web.runtimeconfig.json
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\bin\Debug\netcoreapp2.0\Shop.Web.runtimeconfig.dev.json
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\bin\Debug\netcoreapp2.0\Shop.Web.dll
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\bin\Debug\netcoreapp2.0\Shop.Web.pdb
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\bin\Debug\netcoreapp2.0\Shop.Core.dll
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\bin\Debug\netcoreapp2.0\Shop.Core.pdb
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\obj\Debug\netcoreapp2.0\Shop.Web.csprojResolveAssemblyReference.cache
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\obj\Debug\netcoreapp2.0\Shop.Web.csproj.CoreCompileInputs.cache
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\obj\Debug\netcoreapp2.0\Shop.Web.AssemblyInfoInputs.cache
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\obj\Debug\netcoreapp2.0\Shop.Web.AssemblyInfo.cs
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\obj\Debug\netcoreapp2.0\Shop.Web.dll
+C:\Users\ddybek\Desktop\shop\wszib-shop\src\Shop.Web\obj\Debug\netcoreapp2.0\Shop.Web.pdb
